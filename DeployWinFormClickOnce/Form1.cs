@@ -17,7 +17,7 @@ namespace DeployWinFormClickOnce
             InitializeComponent();
 
             var env = System.Configuration.ConfigurationManager.AppSettings["ENV"];
-            this.Text = $"ENV={env}";
+            this.Text = $"v=9, ENV={env}";
         }
     }
 }
